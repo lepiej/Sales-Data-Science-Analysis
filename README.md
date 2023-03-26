@@ -26,8 +26,6 @@ To answer these questions I've used folowing pandas & matplotlib methods:
 
 To run the code in this repository, you will need to have Python 3.x and the following Python libraries installed:
 
-Pandas
-Numpy
-Matplotlib
+Pandas, Numpy and Matplotlib
 
 To get started, you can clone this repository to your local machine and then navigate to the notebooks/ folder. From there, you can open the notebooks in Jupyter and run the code cells to reproduce the analysis.
