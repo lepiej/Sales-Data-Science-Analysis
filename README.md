@@ -1,34 +1,19 @@
-# Pandas-Data-Science-Tasks
-Set of real world data science tasks completed using the Python Pandas library.
+# Background Information
+This repository was forked from KeithGalli/Pandas-Data-Science-Tasks, which provided the original datasets and instructions on how to solve business questions using Pandas. The data sets were cleaned up and analyzed in this forked repository to answer the specific questions listed below. The original repository contains a series of Jupyter notebooks with step-by-step instructions and code snippets for solving a variety of data science tasks using Pandas, and is a valuable resource for anyone looking to improve their Pandas skills.
 
-## Setup
+# Input Section
+In this project, I analyzed a dataset of sales data using Python Pandas & Python Matplotlib and answered business questions about 12 months worth of sales data, following the instructions provided by KeithGalli. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc.
 
-To access all of the files I recommend you fork this repo and then clone it locally. Instructions on how to do this can be found here: https://help.github.com/en/github/getting-started-with-github/fork-a-repo
+I started by cleaning the data, removing any missing or duplicate values and converting the data types as needed. I then conducted several analyses to answer the following business questions:
 
-The other option is to click the green "clone or download" button and then click "Download ZIP". You then should extract all of the files to the location you want to edit your code.
-
-Installing Jupyter Notebook: https://jupyter.readthedocs.io/en/latest/install.html <br/>
-Installing Pandas library: https://pandas.pydata.org/pandas-docs/stable/install.html 
-
-## Background Information:
-
-This repo goes with [my video](https://youtu.be/eMOA1pPVUc4) on "Solving real world data science videos with Python Pandas!". Here is some information on that video.
-
-In this video we use Python Pandas & Python Matplotlib to analyze and answer business questions about 12 months worth of sales data. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc. 
-
-We start by cleaning our data. Tasks during this section include:
-- Drop NaN values from DataFrame
-- Removing rows based on a condition
-- Change the type of columns (to_numeric, to_datetime, astype)
-
-Once we have cleaned up our data a bit, we move the data exploration section. In this section we explore 5 high level business questions related to our data:
 - What was the best month for sales? How much was earned that month?
 - What city sold the most product?
 - What time should we display advertisemens to maximize the likelihood of customer’s buying product?
 - What products are most often sold together?
 - What product sold the most? Why do you think it sold the most?
 
-To answer these questions we walk through many different pandas & matplotlib methods. They include:
+To answer these questions I've used folowing pandas & matplotlib methods:
+
 - Concatenating multiple csvs together to create a new DataFrame (pd.concat)
 - Adding columns
 - Parsing cells as strings to make new columns (.str)
@@ -37,9 +22,12 @@ To answer these questions we walk through many different pandas & matplotlib met
 - Plotting bar charts and lines graphs to visualize our results
 - Labeling our graphs
 
-Check out the first video I did on Pandas: <br/>
-https://youtu.be/vmEHCJofslg 
+# Getting Started
 
-Check out the videos I did on Matplotlib: <br/>
-https://youtu.be/DAQNHzOcO5A <br/>
-https://youtu.be/0P7QnIQDBJY
+To run the code in this repository, you will need to have Python 3.x and the following Python libraries installed:
+
+Pandas
+Numpy
+Matplotlib
+
+To get started, you can clone this repository to your local machine and then navigate to the notebooks/ folder. From there, you can open the notebooks in Jupyter and run the code cells to reproduce the analysis.
